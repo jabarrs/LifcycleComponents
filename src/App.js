@@ -1,11 +1,10 @@
 import './App.css';
-
-import Srcnav from './components/Srcnav';
+import Router from './config/router';
 
 function App() {
   return (
     <div>
-      <Srcnav />
+      <Router />
     </div>
   );
 }
